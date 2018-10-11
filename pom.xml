@@ -9,7 +9,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <groupId>io.github.volyx</groupId>
     <artifactId>java-vips</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
+    <packaging>jar</packaging>
 
     <repositories>
         <repository>
@@ -39,12 +39,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <dependencies>
         <dependency>
             <groupId>com.nativelibs4java</groupId>
-            <artifactId>bridj</artifactId>
-            <version>0.7.0</version>
-            <type>bundle</type>
-        </dependency>
-        <dependency>
-            <groupId>com.nativelibs4java</groupId>
             <artifactId>jnaerator-runtime</artifactId>
             <version>0.12</version>
             <scope>compile</scope>
@@ -56,6 +50,13 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 <groupId>com.nativelibs4java</groupId>
                 <artifactId>maven-jnaerator-plugin</artifactId>
                 <version>0.12</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
