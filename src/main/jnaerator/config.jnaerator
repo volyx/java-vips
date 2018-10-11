@@ -1,4 +1,4 @@
--library Vips
+-library vips
 -package vips -v -I$/usr/include/vips
 
 -runtime JNA
