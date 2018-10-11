@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/volyx/java-vips.svg?branch=master)](https://travis-ci.com/volyx/java-vips)
+
+
 # Installation
 
 ### From the source

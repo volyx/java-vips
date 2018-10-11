@@ -1,5 +1,5 @@
 -library Vips
--package vips -v -I$/Users/volyx/Projects/java-vips/libvips/libvips/vips/include
+-package vips -v -I$/usr/local/include/vips
 
 -runtime JNA
 -D__cplusplus=1
@@ -9,8 +9,3 @@
 -skipFunctions imb_.*
 
 /usr/local/include/vips/vips.h
-
-// /Users/volyx/Projects/java-vips/src/main/c/vips.h
-// /Users/volyx/Projects/java-vips/libvips/libvips/include/vips/vips_mod.h
-// /Users/volyx/Projects/java-vips/libvips/libvips/include/vips/vips.h
-// /Users/volyx/Projects/java-vips/libvips/libvips/include/vips/vips7compat.h
