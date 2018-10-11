@@ -8,7 +8,7 @@
 -skipFunctions im_.*
 -skipFunctions imb_.*
 
-/usr/local/include/vips/vips-mod.h
+/usr/local/include/vips/vips.h
 
 // /Users/volyx/Projects/java-vips/src/main/c/vips.h
 // /Users/volyx/Projects/java-vips/libvips/libvips/include/vips/vips_mod.h
