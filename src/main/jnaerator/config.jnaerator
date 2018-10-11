@@ -1,5 +1,5 @@
 -library Vips
--package vips -v -I$/usr/local/include/vips
+-package vips -v -I$/usr/include/vips
 
 -runtime JNA
 -D__cplusplus=1
