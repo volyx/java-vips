@@ -8,4 +8,5 @@
 -skipFunctions im_.*
 -skipFunctions imb_.*
 
-/usr/local/include/vips/vips.h
+// /usr/local/include/vips/vips.h
+/opt/local/include/vips/vips.h
